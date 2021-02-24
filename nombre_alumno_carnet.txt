@@ -3,5 +3,5 @@ Balbino Aylagas
 esen feb 2021
 
 nombre completo:Jose Maria Mas
-github url:
+github url:https://github.com/jmmas123/finalprogra2.git
 progra2
