@@ -1,12 +1,10 @@
-function Sum() {
+
+function addToTable() {
     var num1 = document.getElementsByName("num1")[0].value;
     var num2 = document.getElementsByName("num2")[0].value;
     var sum = Number(num1) + Number(num2);
     document.getElementsByName("sum")[0].value = sum;
 
-}
-
-function addToTable() {
     var table = document.getElementById("data");
     var row = table.insertRow(0);
     var cell1 = row.insertCell(0);
@@ -15,4 +13,6 @@ function addToTable() {
     cell1.innerHTML = "num1";
     cell2.innerHTML = "num2";
     cell3.innerHTML = "sum"
+
+    alert("La operacion ha sido agregada a la tabla, el total es: "+sum)
   }
