@@ -4,7 +4,6 @@ function Sum() {
     var sum = Number(num1) + Number(num2);
     document.getElementsByName("sum")[0].value = sum;
 
-    alert(sum)
 }
 
 function addToTable() {
